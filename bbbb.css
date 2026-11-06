@@ -251,6 +251,44 @@ h1, h2, b, strong, .header-lien button .header-lien a {
         font-size: 18px;
         overflow-wrap: anywhere;
     }
+
+header-lien a:not(:has(button)):hover {
+    background-color: #64bda5;
+    color: #F5F5DD;
+    
+}
+
+.header-lien a:has(button):hover {
+    background-color: transparent;
+}
+
+.header-lien button:hover {
+    background-color: #c45b65;
+
+}
+
+
+.header-lien button {
+    background-color: #8b1724;
+    color: #F5F5DD;
+    border: none;
+    border-radius: 8px;
+    padding: 12px 18px;
+    font-size: 16px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.header-lien button:hover {
+    background-color: #c45b65;
+}
+
+
+
+
+
+
+
 }
 
 @media (max-width: 600px) {
